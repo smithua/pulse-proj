@@ -47,23 +47,23 @@
         <nav class="main_nav cf">
             <ul class="cf">
                 <li>
-                    <a href="#" class="about" onclick="return false;">О компании</a>
+                    <a href="/about" class="about">О компании</a>
                 </li><!--
              --><li>
                     <a href="#" class="products" onclick="return false;">Продукция</a>
                     <ul class="menu-extend cf">
-                        <li><a href="#" class="aaaaa" onclick="return false;">Благоустройство</a></li><!--
-                     --><li><a href="#" class="aaaaa" onclick="return false;">Строительство</a></li><!--
-                     --><li><a href="#" class="aaaaa" onclick="return false;">Литая продукция 1</a></li><!--
-                     --><li><a href="#" class="aaaaa" onclick="return false;">Литая продукция 2</a></li><!--
-                     --><li><a href="#" class="aaaaa" onclick="return false;">Тактильная плитка</a></li>
+                        <li><a href="/category/products/improvements" class="aaaaa">Благоустройство</a></li><!--
+                     --><li><a href="/category/products/buildings" class="aaaaa">Строительство</a></li><!--
+                     --><li><a href="/category/products/cast-products-1" class="aaaaa">Литая продукция 1</a></li><!--
+                     --><li><a href="/category/products/cast-products-2" class="aaaaa">Литая продукция 2</a></li><!--
+                     --><li><a href="/category/products/tactile-tiles" class="aaaaa">Тактильная плитка</a></li>
                     </ul>
                 </li><!--
              --><li>
-                    <a href="#" class="projects" onclick="return false;">Наши проекты</a>
+                    <a href="/projects" class="projects">Наши проекты</a>
                 </li><!--
              --><li>
-                    <a href="#" class="contacts" onclick="return false;">Контакты</a>
+                    <a href="/contacts" class="contacts">Контакты</a>
                 </li>
             </ul>
         </nav>
