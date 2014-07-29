@@ -85,59 +85,59 @@
 
         <div class="cart"><img src="wp-content/themes/ooo-pulse/image/cart.png" width="80"></div>
     </header><!-- .header-->
+    <?php if (is_home())  { ?>
+        <div class="slider_wrap">
+            <img src="wp-content/themes/ooo-pulse/image/slider.jpg" width="1160" height="567">
+            <div class="slider_title">Тротуарная плитка</div>
 
-    <div class="slider_wrap">
-        <img src="wp-content/themes/ooo-pulse/image/slider.jpg" width="1160" height="567">
-        <div class="slider_title">Тротуарная плитка</div>
+            <div class="slider_next next-l"></div>
+            <div class="slider_next next-r"></div>
 
-        <div class="slider_next next-l"></div>
-        <div class="slider_next next-r"></div>
+            <div class="dotstyle dotstyle-fillin">
+                <ul>
+                    <li class="current"><a href="#" onclick="return false;">Home</a></li>
+                    <li class=""><a href="#" onclick="return false;">About</a></li>
+                    <li><a href="#" onclick="return false;">Products</a></li>
+                    <li><a href="#" onclick="return false;">Portfolio</a></li>
+                </ul>
+            </div>
 
-        <div class="dotstyle dotstyle-fillin">
-            <ul>
-                <li class="current"><a href="#" onclick="return false;">Home</a></li>
-                <li class=""><a href="#" onclick="return false;">About</a></li>
-                <li><a href="#" onclick="return false;">Products</a></li>
-                <li><a href="#" onclick="return false;">Portfolio</a></li>
-            </ul>
-        </div>
+        </div><!-- .slider_wrap-->
 
-    </div><!-- .slider_wrap-->
+        <div class="advantage_wrap cf">
+            <h2 class="title">
+                <span class="upper"><strong>Наши преимущества</strong></span>
+            </h2>
 
-    <div class="advantage_wrap cf">
-        <h2 class="title">
-            <span class="upper"><strong>Наши преимущества</strong></span>
-        </h2>
+            <figure class="advantage checkmark_block">
+                <p class="advantage__image_block">
+                    <img src="wp-content/themes/ooo-pulse/image/check-mark.png" width="115" height="115" alt="" />
+                </p>
+                <figcaption>Всегда</br>в наличии</figcaption>
+            </figure>
 
-        <figure class="advantage checkmark_block">
-            <p class="advantage__image_block">
-                <img src="wp-content/themes/ooo-pulse/image/check-mark.png" width="115" height="115" alt="" />
-            </p>
-            <figcaption>Всегда</br>в наличии</figcaption>
-        </figure>
+            <figure class="advantage flexibility_block">
+                <p class="advantage__image_block">
+                    <img src="wp-content/themes/ooo-pulse/image/flexibility.png" width="115" height="115" alt="" />
+                </p>
+                <figcaption>Возможность производства по</br>Вашим размерам</figcaption>
+            </figure>
 
-        <figure class="advantage flexibility_block">
-            <p class="advantage__image_block">
-                <img src="wp-content/themes/ooo-pulse/image/flexibility.png" width="115" height="115" alt="" />
-            </p>
-            <figcaption>Возможность производства по</br>Вашим размерам</figcaption>
-        </figure>
+            <figure class="advantage quality_block">
+                <p class="advantage__image_block">
+                    <img src="wp-content/themes/ooo-pulse/image/quality.png" width="115" height="115" alt="" />
+                </p>
+                <figcaption>Качественная продукция по</br>приемлемым ценам</figcaption>
+            </figure>
 
-        <figure class="advantage quality_block">
-            <p class="advantage__image_block">
-                <img src="wp-content/themes/ooo-pulse/image/quality.png" width="115" height="115" alt="" />
-            </p>
-            <figcaption>Качественная продукция по</br>приемлемым ценам</figcaption>
-        </figure>
-
-        <figure class="advantage experience_block">
-            <p class="advantage__image_block">
-                <img src="wp-content/themes/ooo-pulse/image/experience.png" width="115" height="115" alt="" />
-            </p>
-            <figcaption>Многолетний</br>опыт работы</figcaption>
-        </figure>
-    </div><!-- .advantage_wrap-->
-
+            <figure class="advantage experience_block">
+                <p class="advantage__image_block">
+                    <img src="wp-content/themes/ooo-pulse/image/experience.png" width="115" height="115" alt="" />
+                </p>
+                <figcaption>Многолетний</br>опыт работы</figcaption>
+            </figure>
+        </div><!-- .advantage_wrap-->
+    <?php } ?>
     <script src="wp-content/themes/ooo-pulse/js/dots.js"></script>
     <script>
         [].slice.call( document.querySelectorAll( '.dotstyle > ul' ) ).forEach( function( nav ) {
